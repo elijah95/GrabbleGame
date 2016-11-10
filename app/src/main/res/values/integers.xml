@@ -1,0 +1,10 @@
+<resources>
+
+    <!--Counters-->
+    <integer name="distance">0</integer>
+    <integer name="score">0</integer>
+    <integer name="value">0</integer>
+    <integer name="copies">0</integer>
+
+
+</resources>

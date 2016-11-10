@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="PreferenceScreen" parent="AppTheme.NoActionBar">
+
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:background">@color/yellow</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+</resources>
