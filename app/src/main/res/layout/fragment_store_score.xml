@@ -21,14 +21,13 @@
         android:id="@+id/cost_text_store_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/score_view_store_fragment"
         android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/score_view_store_fragment"
         android:text="@integer/score"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/yellow"
-
-
-        android:textSize="50sp" />
+        android:textSize="70dp" />
 
 
 </RelativeLayout>
