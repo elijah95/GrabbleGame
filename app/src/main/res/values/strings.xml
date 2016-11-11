@@ -5,8 +5,13 @@
     <string name="activity_game_title">GameActivity</string>
     <string name="activity_settings_title">SettingsActivity</string>
     <string name="title_activity_game">Map</string>
+    <string name="store_fragment_title">StoreFragment</string>
+
 
     <!--kml_url-->
     <string name="kml_url"> http://www.inf.ed.ac.uk/teaching/courses/selp/coursework/sunday.kml</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
