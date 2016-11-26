@@ -52,7 +52,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".SpellActivity" />
-        <activity android:name=".LetterGameAdapter" />
+        <activity android:name=".LetterSpellAdaptor" />
         <activity android:name=".StoreFragment" />
         <activity android:name=".LetterStoreAdapter" />
         <activity android:name=".StoreActivity"></activity>
