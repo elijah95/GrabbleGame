@@ -53,8 +53,10 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="500dp"
-        android:background="@color/blue"></android.support.v4.view.ViewPager>
+        android:layout_marginTop="530dp"
+        android:background="@color/blue">
+
+    </android.support.v4.view.ViewPager>
 
 
 </RelativeLayout>

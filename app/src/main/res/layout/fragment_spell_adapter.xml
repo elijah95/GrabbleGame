@@ -35,18 +35,17 @@
         <ImageView
             android:id="@+id/copies_view_adapter"
             android:layout_width="200dp"
-            android:layout_height="120dp"
+            android:layout_height="100dp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="36dp"
             android:layout_toEndOf="@+id/letter_button_adapter"
-            android:contentDescription=""
             android:scaleType="fitXY"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/value_view_adapter"
             android:layout_width="200dp"
-            android:layout_height="60dp"
+            android:layout_height="70dp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="6dp"
             android:layout_toEndOf="@+id/letter_button_adapter"
