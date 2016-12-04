@@ -55,7 +55,8 @@
         <activity android:name=".LetterSpellAdaptor" />
         <activity android:name=".StoreFragment" />
         <activity android:name=".LetterStoreAdapter" />
-        <activity android:name=".StoreActivity"></activity>
+        <activity android:name=".StoreActivity" />
+        <activity android:name=".LetterDbAdapter"></activity>
     </application>
 
 </manifest>
