@@ -56,7 +56,8 @@
         <activity android:name=".StoreFragment" />
         <activity android:name=".LetterStoreAdapter" />
         <activity android:name=".StoreActivity" />
-        <activity android:name=".LetterDbAdapter"></activity>
+        <activity android:name=".MarkerDbAdapter" />
+        <activity android:name=".MarkerDbAdapter"></activity>
     </application>
 
 </manifest>
