@@ -42,9 +42,8 @@
         <activity
             android:name=".GameActivity"
             android:label="@string/activity_game_title"
-            android:launchMode="singleInstance"
-            android:parentActivityName=".MainActivity" />
-        <!-- -->
+            android:launchMode="singleTask" />
+        <!-- android:parentActivityName=".MainActivity" -->
 
 
         <!--
@@ -72,8 +71,7 @@
             android:name=".StoreActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MarkerDbAdapter" />
-     <activity android:name=".MarkerDbAdapter">
-        </activity>
+        <activity android:name=".MarkerDbAdapter"></activity>
     </application>
 
 </manifest>
