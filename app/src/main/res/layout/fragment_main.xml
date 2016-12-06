@@ -27,30 +27,55 @@
         android:src="@drawable/grabble" />
 
     <ImageButton
-        android:id="@+id/settings"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:id="@+id/store_main"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/spell_main"
+        android:layout_below="@+id/spell_main"
+        android:layout_marginTop="10dp"
         android:adjustViewBounds="true"
         android:background="@color/blue"
         android:cropToPadding="false"
         android:scaleType="fitXY"
-        android:src="@drawable/settings"
-        android:layout_below="@+id/play"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
+        android:src="@drawable/store" />
 
     <ImageButton
-        android:id="@+id/play"
-        android:layout_width="190dp"
-        android:layout_height="100dp"
+        android:id="@+id/settings"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/store_main"
+        android:layout_below="@+id/store_main"
+        android:layout_marginTop="11dp"
         android:adjustViewBounds="true"
         android:background="@color/blue"
         android:cropToPadding="false"
         android:scaleType="fitXY"
-        android:src="@drawable/play"
+        android:src="@drawable/settings" />
+
+    <ImageButton
+        android:id="@+id/spell_main"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/map"
+        android:layout_below="@+id/map"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:background="@color/blue"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/spell" />
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:background="@color/blue"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/map"
         android:layout_below="@+id/Grabble"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
