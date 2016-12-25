@@ -46,6 +46,15 @@
         android:layout_marginTop="250dp"
         android:textSize="50sp" />
 
+    <ImageButton
+        android:id="@+id/spell_button_spell"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:scaleType="fitXY" />
+
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
