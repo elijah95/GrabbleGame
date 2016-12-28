@@ -8,26 +8,25 @@
         android:id="@+id/score_view_store_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginEnd="15dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="12dp"
         android:adjustViewBounds="true"
-        android:maxHeight="130dp"
-        android:maxWidth="350dp" />
+        android:maxHeight="100dp"
+        android:maxWidth="222dp"
+        />
 
     <TextView
-        android:id="@+id/cost_text_store_fragment"
+        android:id="@+id/score_text_store_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
         android:layout_toEndOf="@+id/score_view_store_fragment"
-        android:text="@integer/score"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/yellow"
-        android:textSize="70dp" />
+        android:textSize="40sp" />
 
 
 </RelativeLayout>
