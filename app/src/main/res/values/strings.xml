@@ -18,10 +18,16 @@
     <string name="kml_url_sunday"> http://www.inf.ed.ac.uk/teaching/courses/selp/coursework/sunday.kml</string>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+    <!-- misc -->
     <string name="price">Price:</string>
-    <string name="title_activity_deek">DEEK</string>
+
+
+
 
 
 </resources>
